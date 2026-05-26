@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="QvmAa0" name="RUDIMENT" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              defines="JUCE_DISPLAY_SPLASH_SCREEN=0" companyName="Vegova" companyWebsite="https://www.vegova.si/"
+              cppLanguageStandard="20">
+  <MAINGROUP id="wZaisk" name="RUDIMENT">
+    <GROUP id="{6F91ED69-6A4A-8482-72EE-17123E25F7EF}" name="Assets">
+      <FILE id="oCQjoP" name="directoryIcon.png" compile="0" resource="1"
+            file="../Assets/directoryIcon.png"/>
+      <FILE id="f5vseO" name="directoryIconOnHover.png" compile="0" resource="1"
+            file="../Assets/directoryIconOnHover.png"/>
+      <FILE id="X2kyDx" name="DefaultPlay.png" compile="0" resource="1" file="../Assets/DefaultPlay.png"/>
+      <FILE id="v95uKK" name="LoopButtonClicked.png" compile="0" resource="1"
+            file="../Assets/LoopButtonClicked.png"/>
+      <FILE id="GOAsx7" name="LoopButtonOne.png" compile="0" resource="1"
+            file="../Assets/LoopButtonOne.png"/>
+      <FILE id="YGN40h" name="LoopButtonOneClicked.png" compile="0" resource="1"
+            file="../Assets/LoopButtonOneClicked.png"/>
+      <FILE id="KuU9dG" name="LoopButton.png" compile="0" resource="1" file="../Assets/LoopButton.png"/>
+      <FILE id="dkjOGF" name="VolumeButtonOff.png" compile="0" resource="1"
+            file="../Assets/VolumeButtonOff.png"/>
+      <FILE id="YFjzz9" name="VolumeButtonOffClicked.png" compile="0" resource="1"
+            file="../Assets/VolumeButtonOffClicked.png"/>
+      <FILE id="E6gxSi" name="playButtonPlaying.png" compile="0" resource="1"
+            file="../Assets/playButtonPlaying.png"/>
+      <FILE id="k0IQNV" name="backwardsButton.png" compile="0" resource="1"
+            file="../Assets/backwardsButton.png"/>
+      <FILE id="dbeMGC" name="backwardsButtonClicked.png" compile="0" resource="1"
+            file="../Assets/backwardsButtonClicked.png"/>
+      <FILE id="pspGmh" name="forwardButtonClicked.png" compile="0" resource="1"
+            file="../Assets/forwardButtonClicked.png"/>
+      <FILE id="MHkTFp" name="Mohave-Regular.ttf" compile="0" resource="1"
+            file="../Assets/Mohave/static/Mohave-Regular.ttf"/>
+      <FILE id="T3h6TY" name="forwardButton.png" compile="0" resource="1"
+            file="../Assets/forwardButton.png"/>
+      <FILE id="OyrqeT" name="VolumeButton.png" compile="0" resource="1"
+            file="../Assets/VolumeButton.png"/>
+      <FILE id="sOokE8" name="UserLogoPressed.png" compile="0" resource="1"
+            file="../Assets/UserLogoPressed.png"/>
+      <FILE id="JdnF8r" name="UserLogo.png" compile="0" resource="1" file="../Assets/UserLogo.png"/>
+      <FILE id="YldJ0I" name="ALBUMPLACEHOLDER.png" compile="0" resource="1"
+            file="../Assets/ALBUMPLACEHOLDER.png"/>
+      <FILE id="eqXcrF" name="VolumeButtonClicked.png" compile="0" resource="1"
+            file="../Assets/VolumeButtonClicked.png"/>
+      <FILE id="H8Nprg" name="playButtonPaused.png" compile="0" resource="1"
+            file="../Assets/playButtonPaused.png"/>
+      <FILE id="EOgVF2" name="INDRALogo.png" compile="0" resource="1" file="../Assets/INDRALogo.png"/>
+      <FILE id="ZWqpqO" name="INDRALogo.svg" compile="0" resource="1" file="../Assets/INDRALogo.svg"/>
+    </GROUP>
+    <GROUP id="{33F8DBF7-B145-3B07-9CBE-E61464F4ED05}" name="Source">
+      <FILE id="CSD9Le" name="SideBarListModel.cpp" compile="1" resource="0"
+            file="Source/SideBarListModel.cpp"/>
+      <FILE id="Ty3JQO" name="Mp3BoxModel.cpp" compile="1" resource="0" file="Source/Mp3BoxModel.cpp"/>
+      <FILE id="MSRoGC" name="songFileInfo.cpp" compile="1" resource="0"
+            file="Source/songFileInfo.cpp"/>
+      <FILE id="VbXDLA" name="UsersSelect.cpp" compile="1" resource="0" file="Source/UsersSelect.cpp"/>
+      <FILE id="mp7I0V" name="sqlite3.c" compile="1" resource="0" file="Source/sqlite3.c"/>
+      <FILE id="z0y5tT" name="MainSongComponent.cpp" compile="1" resource="0"
+            file="Source/MainSongComponent.cpp"/>
+      <FILE id="nLZ8vI" name="SQLiteManager.cpp" compile="1" resource="0"
+            file="Source/SQLiteManager.cpp"/>
+      <FILE id="ITnP0R" name="AlbumCoverDisplay.cpp" compile="1" resource="0"
+            file="Source/AlbumCoverDisplay.cpp"/>
+      <FILE id="kRR54Z" name="playbackSlider.cpp" compile="1" resource="0"
+            file="Source/playbackSlider.cpp"/>
+      <FILE id="RVVgnt" name="BlackoutBox.cpp" compile="1" resource="0" file="Source/BlackoutBox.cpp"/>
+      <FILE id="RkKWdw" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="Zgr4MA" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+    <FILE id="RbtSjg" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+    <FILE id="k1jJ2t" name="playbackSlider.h" compile="0" resource="0"
+          file="Source/playbackSlider.h"/>
+    <FILE id="fWErpr" name="AlbumCoverDisplay.h" compile="0" resource="0"
+          file="Source/AlbumCoverDisplay.h"/>
+    <FILE id="MrvMfA" name="SQLiteManager.h" compile="0" resource="0" file="Source/SQLiteManager.h"/>
+    <FILE id="A4eKtP" name="MainSongComponent.h" compile="0" resource="0"
+          file="Source/MainSongComponent.h"/>
+    <FILE id="WknZFC" name="songFileInfo.h" compile="0" resource="0" file="Source/songFileInfo.h"/>
+    <FILE id="DI95SM" name="sqlite3.h" compile="0" resource="0" file="Source/sqlite3.h"/>
+    <FILE id="x0PXfV" name="BlackoutBox.h" compile="0" resource="0" file="Source/BlackoutBox.h"/>
+    <FILE id="qkWuMC" name="SideBarListModel.h" compile="0" resource="0"
+          file="Source/SideBarListModel.h"/>
+    <FILE id="KC57v2" name="Mp3BoxModel.h" compile="0" resource="0" file="Source/Mp3BoxModel.h"/>
+    <FILE id="yFCHOP" name="UsersSelect.h" compile="0" resource="0" file="Source/UsersSelect.h"/>
+    <FILE id="v1uO6O" name="CustomLookAndFeel.h" compile="0" resource="0"
+          file="Source/CustomLookAndFeel.h"/>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="gin" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="gin_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_USE_WINDOWS_MEDIA_FORMAT="1"
+               JUCE_USE_MP3AUDIOFORMAT="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022" smallIcon="EOgVF2" bigIcon="EOgVF2"
+            externalLibraries="ID3v2_Static_V143.lib">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="RUDIMENT" headerPath="..\..\..\Libraries\ID3v2\ID3v2\include;"
+                       libraryPath="..\..\..\Libraries\ID3v2\Build\64\Debug;"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="RUDIMENT" libraryPath="..\..\..\Libraries\ID3v2\Build\64\Release;"
+                       headerPath="..\..\..\Libraries\ID3v2\ID3v2\include;"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../Libraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../Libraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../Libraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../Libraries/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../Libraries/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../Libraries/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../Libraries/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../Libraries/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../Libraries/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../Libraries/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../Libraries/JUCE/modules"/>
+        <MODULEPATH id="gin" path="../Libraries/JUCE/Gin/modules"/>
+        <MODULEPATH id="gin_graphics" path="../Libraries/JUCE/Gin/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
